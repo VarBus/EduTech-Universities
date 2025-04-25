@@ -1,0 +1,12 @@
+{
+  "app": {
+    "title": "Science-Focused Universities"
+  },
+  "university": {
+    "read-more": "Read more"
+  },
+  "footer": {
+    "copyright": "Copyright © 2024 EduGlobal Tech LLC. All rights reserved.",
+    "developer": "Developed by"
+  }
+}
