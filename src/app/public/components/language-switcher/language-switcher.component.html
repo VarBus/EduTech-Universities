@@ -1,0 +1,13 @@
+<mat-button-toggle-group
+  [value]="currentLang"
+  appearance="standard"
+  aria-label="Select language"
+  name="language">
+  <mat-button-toggle
+    *ngFor="let language of languages"
+    (click)="useLanguage(language)"
+    [attr.aria-label]="language === 'en' ? 'English' : 'Spanish'"
+    [value]="language">
+    {{ language.toUpperCase() }}
+  </mat-button-toggle>
+</mat-button-toggle-group>

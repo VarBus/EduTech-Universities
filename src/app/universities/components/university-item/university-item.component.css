@@ -1,0 +1,26 @@
+university-card {
+  margin: 16px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.university-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.university-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.actions-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-button {
+  font-size: 16px;
+}

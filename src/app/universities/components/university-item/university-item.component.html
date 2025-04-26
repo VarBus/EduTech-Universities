@@ -1,1 +1,24 @@
-<p>university-item works!</p>
+<mat-card class="university-card">
+  <mat-card-header>
+    <div mat-card-avatar class="university-logo-container">
+      <img [src]="university.logoUrl" [alt]="university.name + ' logo'"
+           class="university-logo" aria-describedby="university-name"
+           onerror="this.src='assets/images/university-placeholder.png'">
+    </div>
+    <mat-card-title id="university-name">{{ university.name }}</mat-card-title>
+    <mat-card-subtitle>{{ university.country }} ({{ university.alpha_two_code }})</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+      <strong>Domain:</strong> {{ university.domains[0] }}
+  </mat-card-content>
+  <mat-card-actions class="actions-section">
+    <a
+       [href]="university.web_pages[0]"
+       class="action-button"
+       color="primary"
+       mat-button
+       target="_blank"
+       aria-label="Visit university website"
+       role="link">{{ 'university.read-more' | translate }}</a>
+  </mat-card-actions>
+</mat-card>
