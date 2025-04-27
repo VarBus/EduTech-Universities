@@ -13,6 +13,6 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './footer-content.component.css'
 })
 export class FooterComponent {
-  developerCode = 'U202212345';
-  developerName = 'John Doe';
+  developerCode = 'U202319668';
+  developerName = 'Marcelo Alessandro Varela Bustinza';
 }
