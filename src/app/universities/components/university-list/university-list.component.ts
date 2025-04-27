@@ -6,7 +6,7 @@ import {MatNavList} from '@angular/material/list';
 
 /**
  * Component to display a list of universities
- * @author U202212345 John Doe
+ * @author U202319668
  */
 @Component({
   selector: 'app-university-list',
