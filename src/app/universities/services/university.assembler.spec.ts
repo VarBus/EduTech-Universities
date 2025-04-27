@@ -1,7 +1,7 @@
-import { University } from './university.assembler';
+import { UniversityAssembler } from './university.assembler';
 
 describe('University', () => {
   it('should create an instance', () => {
-    expect(new University()).toBeTruthy();
+    expect(new UniversityAssembler()).toBeTruthy();
   });
 });

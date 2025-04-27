@@ -9,7 +9,7 @@ import { UniversityAssembler } from './university.assembler';
 
 /**
  * Service for fetching university data from the universities API
- * @author U202212345 John Doe
+ * @author U202319668
  */
 @Injectable({
   providedIn: 'root'
